@@ -1,7 +1,7 @@
 {
-    "name": "production-project",
+    "name": "cairn",
     "version": "1.0.0",
-    "description": "",
+    "description": "Cairn — an internal knowledge base for engineering teams: block-based technical articles, role-based publishing, peer review and a feature-flagged design system.",
     "main": "index.js",
     "scripts": {
         "start": "webpack serve --env port=3000",
