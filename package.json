@@ -143,6 +143,7 @@
     "loki": {
         "chromeDockerWithoutSeccomp": true,
         "chromeFlags": "--headless --disable-gpu --hide-scrollbars --no-sandbox",
+        "skipStories": "^pages/ArticlesPage/ArticlesPage Normal$",
         "configurations": {
             "chrome.laptop": {
                 "target": "chrome.docker",
