@@ -21,6 +21,9 @@ describe('updateProfileData.test', () => {
             profile: {
                 form: data,
             },
+            user: {
+                authData: { id: '1', username: 'admin' },
+            },
         });
 
         thunk.api.put.mockReturnValue(Promise.resolve({ data }));
