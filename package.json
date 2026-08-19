@@ -141,6 +141,8 @@
         "react-router-dom": "^6.2.1"
     },
     "loki": {
+        "chromeDockerWithoutSeccomp": true,
+        "chromeFlags": "--headless --disable-gpu --hide-scrollbars --no-sandbox",
         "configurations": {
             "chrome.laptop": {
                 "target": "chrome.docker",
